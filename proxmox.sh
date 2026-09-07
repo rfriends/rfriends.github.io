@@ -6,7 +6,7 @@
 echo easy install Ver 1.0
 echo
 
-if uname -a | grep -q "-pve"; then
+if uname -a | grep pve ; then
     echo "これは Proxmoxです"
 else
     echo "Proxmoxではありません"
